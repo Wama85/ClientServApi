@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="css/estilo.css">
 
     <title>API CRUD</title>
-    <style>
-        #modal {
-            display: none;
-        }
-    </style>
+ 
 </head>
 <body>
     
@@ -29,18 +25,19 @@
 
         <div id="modal">
             <div id="formulario">
-                <form id="frm1" enctype="multipart/form-data">
-                    <input type="hidden" id="txtid" />
+                <form id="form1" enctype="multipart/form-data">
+                    <input type="hidden" id="txtid" name="id" />
                     <label>Nombre:</label><br>
-                    <input type="text" id="txtnombre" /><br>
+                    <input type="text" id="txtnombre" name="nombre" /><br>
                     <label>Apellido:</label><br>
-                    <input type="text" id="txtapellido" /><br>
+                    <input type="text" id="txtapellido" name="apellido" /><br>
                     <label>Correo:</label><br>
-                    <input type="text" id="txtcorreo" /><br>
-                   
-                    
-                    <input type="submit" id="btnguardar" value="Agregar">
-                </form>
+                    <input type="text" id="txtcorreo" name="correo" /><br> 
+                    <label>Foto:</label><br>
+                    <input type="file" id="imgfoto" name="foto">
+                    <input type="button" id="btnguardar" value="Agregar">
+                  </form>
+                  
             </div>
         </div>
     </main>
@@ -62,27 +59,6 @@
    
 </body>
 <script src="js/posts.js"></script>
-<script src="js/javascript.js"></script>
+<script src="js/get.js"></script>
 <script src="js/modal.js"></script>
-<script>
-   function uploadImage() {
-  const input = document.getElementById('imageFile');
-  const file = input.files[0];
-
-  const formData = new FormData();
-  formData.append('imageFile', file);
-
-  fetch('http://localhost:3000/upload', {
-    method: 'POST',
-    body: formData
-  })
-    .then(response => response.json())
-    .then(data => {
-      console.log('Imagen subida exitosamente', data);
-      // Realizar acciones adicionales después de subir la imagen
-    })
-    .catch(error => console.error('Error al subir la imagen', error));
-}
-
-</script>
 </html>

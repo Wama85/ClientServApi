@@ -1,4 +1,4 @@
-const myForm = document.getElementById("frm1");
+const myForm = document.getElementById("form1");
 const nombre = document.getElementById("txtnombre");
 const apellido = document.getElementById("txtapellido");
 const correo = document.getElementById("txtcorreo");
