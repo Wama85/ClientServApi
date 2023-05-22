@@ -19,7 +19,7 @@
     <main>
         
         <input id="mostrar-modal" type="radio" name="modal"/>
-        <label for="mostrar-modal">INSERTAR REGISTRO</label>
+        <label for="mostrar-modal" id="margeninsert">INSERTAR REGISTRO</label>
         <input id="cerrar-modal" type="radio" name="modal"/>
         <label for="cerrar-modal">X</label>
 
@@ -34,8 +34,17 @@
                     <label>Correo:</label><br>
                     <input type="text" id="txtcorreo" name="correo" /><br> 
                     <label>Foto:</label><br>
-                    <input type="file" id="imgfoto" name="foto">
-                    <input type="button" id="btnguardar" value="Agregar">
+                    <select id="imgfoto">
+                <option value="delfin.png">Delfin<img src="imagenes/delfin.png" alt="Delfin"></option>
+                <option value="buho.png">Buho<img src="imagenes/buho.png" alt="Buho"></option>
+                <option value="mapache.png">Mapache<img src="imagenes/mapache.png" alt="Mapache"></option>
+                <option value="gasela.png">Gasela<img src="imagenes/gasela.png" alt="Gasela"></option>
+                <option value="adulto.png">Adulto<img src="imagenes/mapache.png" alt="Adulto"></option>
+                <option value="Mujer.png">Mujer<img src="imagenes/mujer.png" alt="Mujer"></option>
+                <option value="niño.png">Niño<img src="imagenes/niño.png" alt="Niño"></option>
+                <option value="niña.png">Niña<img src="imagenes/niña.png" alt="Niña"></option>
+                    </select>
+                    <input type="button" id="btnguardar" value="Agregar Registro">
                   </form>
                   
             </div>

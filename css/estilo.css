@@ -1,3 +1,8 @@
+header{
+    background-color: cadetblue;
+    padding: 8px;
+    margin-bottom: 10px;
+}
 ul li{
     display: inline;
   
@@ -70,7 +75,7 @@ a:hover{
     margin-bottom: 20px;
 }
 
-input[type=text] {
+input[type=text], select, button {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -141,9 +146,8 @@ main {
 #cerrar-modal {
 	display: none;
 	+ label {
-		position: absolute;
-		top: 8em;
-		right: 7em;
+		margin: 0 auto;
+		
 		z-index: 100;
 		color: #fff;
 		font-weight: bold;
@@ -165,4 +169,8 @@ main {
       display: none;
     }
   }
+}
+#margeninsert
+{
+    margin-bottom:20px ;
 }

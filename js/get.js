@@ -14,7 +14,7 @@ const mostrardata = (data) => {
         <td>${data[i].nombre}</td>
         <td>${data[i].apellido}</td>
         <td>${data[i].correo}</td>
-        <td><img src="imagenes/${data[i].foto}"></td>
+        <td><img src="imagenes/${data[i].foto}" width="50" height="auto"></td>
         <td><a href="#" onclick="editar(${data[i].id})">Editar</a></td>
         <td><button class="btn-eliminar" onclick="eliminar(${data[i].id})">Eliminar</button></td>
       </tr>

@@ -4,36 +4,50 @@
       "id": 7,
       "nombre": "Sebastian",
       "apellido": "Beler",
-      "correo": "wian9@hotmail.com",
-      "foto": "img(1).png"
+      "correo": "wi_an9@hotmail.com",
+      "foto": "buho.png"
     },
     {
       "id": 8,
       "nombre": "Marlon",
       "apellido": "Marzo",
-      "correo": "undefined",
-      "foto": "img(2).png"
+      "correo": "marlon@gmail.com",
+      "foto": "adulto.png"
     },
     {
       "id": 9,
       "nombre": "Susan",
       "apellido": "Cespedes",
-      "correo": "undefined",
-      "foto": "img(8).png"
+      "correo": "micorreo@gmail.com",
+      "foto": "mapache.png"
     },
     {
       "id": 10,
       "nombre": "Jhoselin",
       "apellido": "Quiroga",
       "correo": "undefined",
-      "foto": "img(7).png"
+      "foto": "Mujer.png"
     },
     {
       "id": 11,
       "nombre": "Isidro",
       "apellido": "Lupinta",
       "correo": "coooasd@gmasi",
-      "foto": "C:\\fakepath\\Captura de pantalla 2023-03-11 234802.png"
+      "foto": "buho.png"
+    },
+    {
+      "id": 12,
+      "nombre": "Juan",
+      "apellido": "Mamani",
+      "correo": "juan@gmail.com",
+      "foto": "niño.png"
+    },
+    {
+      "id": 13,
+      "nombre": "Richard",
+      "apellido": "Martinez",
+      "correo": "juan@gmail.com",
+      "foto": "adulto.png"
     }
   ],
   "comments": [],

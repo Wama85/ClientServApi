@@ -22,7 +22,17 @@ const mostrarData = (data) => {
       <label>Correo:</label>
       <input type="text" id="txtcorreo" value="${data.correo}" />
       <label>Foto:</label>
-      <input type="text" id="imgfoto" value="${data.foto}" />
+      
+      <select id="imgfoto">
+      <option value="delfin.png">Delfin<img src="imagenes/delfin.png" alt="Delfin"></option>
+      <option value="buho.png">Buho<img src="imagenes/buho.png" alt="Buho"></option>
+      <option value="mapache.png">Mapache<img src="imagenes/mapache.png" alt="Mapache"></option>
+      <option value="gasela.png">Gasela<img src="imagenes/gasela.png" alt="Gasela"></option>
+      <option value="adulto.png">Adulto<img src="imagenes/mapache.png" alt="Adulto"></option>
+      <option value="Mujer.png">Mujer<img src="imagenes/mujer.png" alt="Mujer"></option>
+      <option value="niño.png">Niño<img src="imagenes/niño.png" alt="Niño"></option>
+      <option value="niña.png">Niña<img src="imagenes/niña.png" alt="Niña"></option>
+                    </select>
       <button id="btnguardar">Actualizar</button> 
     </form>
   `;
