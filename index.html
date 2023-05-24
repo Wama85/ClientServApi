@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>API CRUD</title>
+ 
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1>GET:POST:PUT:DELETE</h1>
+        </nav>
+    </header>
+    <main>
+        
+        <input id="mostrar-modal" type="radio" name="modal"/>
+        <label for="mostrar-modal" id="margeninsert">INSERTAR REGISTRO</label>
+        <input id="cerrar-modal" type="radio" name="modal"/>
+        <label for="cerrar-modal">X</label>
+
+        <div id="modal">
+            <div id="formulario">
+                <form id="form1" enctype="multipart/form-data">
+                    <input type="hidden" id="txtid" name="id" />
+                    <label>Nombre:</label><br>
+                    <input type="text" id="txtnombre" name="nombre" /><br>
+                    <label>Apellido:</label><br>
+                    <input type="text" id="txtapellido" name="apellido" /><br>
+                    <label>Correo:</label><br>
+                    <input type="text" id="txtcorreo" name="correo" /><br> 
+                    <label>Foto:</label><br>
+                    <select id="imgfoto">
+                <option value="delfin.png">Delfin<img src="imagenes/delfin.png" alt="Delfin"></option>
+                <option value="buho.png">Buho<img src="imagenes/buho.png" alt="Buho"></option>
+                <option value="mapache.png">Mapache<img src="imagenes/mapache.png" alt="Mapache"></option>
+                <option value="gasela.png">Gasela<img src="imagenes/gasela.png" alt="Gasela"></option>
+                <option value="adulto.png">Adulto<img src="imagenes/mapache.png" alt="Adulto"></option>
+                <option value="Mujer.png">Mujer<img src="imagenes/mujer.png" alt="Mujer"></option>
+                <option value="niño.png">Niño<img src="imagenes/niño.png" alt="Niño"></option>
+                <option value="niña.png">Niña<img src="imagenes/niña.png" alt="Niña"></option>
+                    </select>
+                    <input type="button" id="btnguardar" value="Agregar Registro">
+                  </form>
+                  
+            </div>
+        </div>
+    </main>
+
+    <section id="jsondatos">
+        <table>
+            <thead>
+                <th>id</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Foto</th>
+                <th colspan="3" align="center" id="opciones">Opciones</th>
+            </thead>
+            <tbody id="data">    
+            </tbody>
+        </table>
+    </section>
+   
+</body>
+<script src="js/posts.js"></script>
+<script src="js/get.js"></script>
+<script src="js/modal.js"></script>
+</html>

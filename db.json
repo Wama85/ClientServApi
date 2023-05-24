@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 7,
+      "nombre": "Sebastian",
+      "apellido": "Beler",
+      "correo": "wi_an9@hotmail.com",
+      "foto": "buho.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Marlon",
+      "apellido": "Marzo",
+      "correo": "marlon@gmail.com",
+      "foto": "adulto.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Susan",
+      "apellido": "Cespedes",
+      "correo": "micorreo@gmail.com",
+      "foto": "Mujer.png"
+    },
+    {
+      "id": 10,
+      "nombre": "Jhoselin",
+      "apellido": "Quiroga",
+      "correo": "quiroga@hotmail.com",
+      "foto": "gasela.png"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
